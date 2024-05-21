@@ -1,0 +1,8 @@
+<%# this is how i loop through all the tasks %>
+
+<h1>All Tasks</h1>
+<ul>
+  <% @tasks.each do |task| %>
+    <li><%= task.title %></li>
+  <% end %>
+</ul>
